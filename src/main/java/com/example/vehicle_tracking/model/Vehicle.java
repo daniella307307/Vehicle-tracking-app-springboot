@@ -14,5 +14,6 @@ public class Vehicle {
     private String manufacturer;
     private String year;
     private String model;
+    @ManyToOne
     private String owner;
 }
